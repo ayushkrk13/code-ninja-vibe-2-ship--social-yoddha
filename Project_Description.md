@@ -1,10 +1,9 @@
 # Social Yoddha 🦸‍♂️🌿
 
+## Overview
 **Social Yoddha** is a modern, dynamic, and community-driven web platform designed to empower citizens to become "Yoddhas" (Warriors) for their neighborhoods. Built with a focus on premium, interactive UI/UX, this application allows users to track local civic issues, form action teams, and collaborate in real-time to make a tangible difference in their community.
 
----
-
-## ✨ Key Features
+## Key Features
 
 ### 📊 Dynamic Issue Dashboard
 *   **Trending Local Issues:** View active civic issues in your area (e.g., fallen trees, waterlogging) on beautiful, interactive cards.
@@ -19,38 +18,25 @@
 *   **Leader Controls:** Team leaders have exclusive access to edit team settings or disband groups via a dedicated settings dropdown.
 
 ### 👤 Customizable Yoddha Profiles
-*   **Avatar Gallery:** Personalize your profile by choosing from a curated gallery of fun, vibrant "open-peeps" stickman avatars.
+*   **Avatar Gallery:** Personalize your profile by choosing from a curated gallery of fun, vibrant avatars.
 *   **Profile Management:** A dedicated, animated Settings Modal allows you to seamlessly update your contact details, change your tracking location (City/Area), or securely delete your account.
 
 ### 🎨 Premium Aesthetics
 *   **Smooth Animations:** Powered by `framer-motion`, the app features satisfying micro-interactions, modal transitions, and hover effects that make the platform feel alive.
 *   **Modern Design:** Built with Tailwind CSS, ensuring a clean, responsive, and highly polished user interface across all devices.
 
----
+## Technology Stack
+*   **Frontend Framework:** React (via Vite)
+*   **Styling:** Tailwind CSS
+*   **Animations:** Framer Motion
+*   **Icons:** Lucide React
 
-## 🛠️ Technology Stack
-
-*   **Frontend Framework:** [React](https://reactjs.org/) (via [Vite](https://vitejs.dev/))
-*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
-*   **Icons:** [Lucide React](https://lucide.dev/)
-*   **Avatars:** [DiceBear API (Open Peeps)](https://www.dicebear.com/)
-
----
-
-## 🚀 Getting Started
-
-Follow these steps to run the Social Yoddha platform locally on your machine:
-
-### Prerequisites
-Make sure you have [Node.js](https://nodejs.org/) installed on your system.
-
-### Installation
+## Getting Started
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
-   cd claude-social-yoddha(1.0)
+   git clone https://github.com/ayushkrk13/social-yoddha.git
+   cd social-yoddha
    ```
 
 2. **Install dependencies**
@@ -66,12 +52,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 4. **Open your browser**
    Navigate to the URL provided in your terminal (typically `http://localhost:5173` or `http://localhost:5174`) to see the app in action!
 
----
-
-## 🤝 Contributing
-
+## Contributing
 We welcome contributions from fellow Yoddhas! If you'd like to improve the platform, please fork the repository, create a new branch, and submit a Pull Request detailing your changes.
-
----
 
 *Built with ❤️ to empower communities.*
