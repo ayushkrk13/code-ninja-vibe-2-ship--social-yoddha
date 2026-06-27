@@ -38,7 +38,7 @@ export default function RegisterPage() {
   return (
     <div className="min-h-screen w-full relative flex items-center justify-center bg-gray-900 pt-16 pb-24" onMouseMove={handleMouseMove}>
       <Link to="/" className="absolute top-6 left-6 z-50 text-white font-heading font-bold text-xl flex items-center gap-2 hover:scale-105 transition-transform drop-shadow-md bg-black/20 px-4 py-2 rounded-full backdrop-blur-sm">
-        <img src="/logo.png" alt="Logo" className="w-6 h-6 object-contain" /> Social Yoddha
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="w-6 h-6 object-contain" /> Social Yoddha
       </Link>
 
       <div 

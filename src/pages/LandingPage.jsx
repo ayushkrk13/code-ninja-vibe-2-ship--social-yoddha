@@ -26,7 +26,7 @@ export default function LandingPage() {
       {/* Navbar Overlay */}
       <nav className="fixed top-0 w-full z-50 p-6 flex justify-between items-center bg-white/80 backdrop-blur-md shadow-sm">
         <div className="text-2xl font-heading font-bold text-primary flex items-center gap-2">
-          <img src="/logo.png" alt="Social Yoddha" className="w-10 h-10 object-contain" /> Social Yoddha
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Social Yoddha" className="w-10 h-10 object-contain" /> Social Yoddha
         </div>
         <div className="flex gap-4">
           <Link to="/login">
@@ -217,7 +217,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-10 text-center md:text-left">
           <div className="flex flex-col items-center md:items-start">
             <div className="text-2xl font-heading font-bold text-primary flex items-center gap-2 mb-6">
-              <img src="/logo.png" alt="Social Yoddha" className="w-10 h-10 object-contain" /> Social Yoddha
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Social Yoddha" className="w-10 h-10 object-contain" /> Social Yoddha
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Empowering citizens to build a better society, one report at a time. Report, unite, and fix your community.

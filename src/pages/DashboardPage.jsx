@@ -92,7 +92,7 @@ export default function DashboardPage() {
       {/* Top Nav */}
       <nav className="sticky top-0 z-40 bg-white border-b border-gray-100 shadow-sm px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-xl font-heading font-bold text-primary flex items-center gap-2">
-          <img src="/logo.png" alt="Logo" className="w-6 h-6 object-contain" /> <span className="hidden sm:inline">Social Yoddha</span>
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="w-6 h-6 object-contain" /> <span className="hidden sm:inline">Social Yoddha</span>
         </Link>
         <div className="flex-1 max-w-xl mx-4 relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" size={18} />
