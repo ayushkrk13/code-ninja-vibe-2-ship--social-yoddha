@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/social-yoddha/',
+  base: '/code-ninja-vibe-2-ship--social-yoddha/',
   plugins: [react(), tailwindcss()],
 })
